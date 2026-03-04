@@ -160,19 +160,28 @@ tbody tr:hover {
 
 /* TOGGLE */
 .theme-toggle {
-    text-align: center;
-    margin-bottom: 20px;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
 }
 
 .theme-toggle button {
-    background: none;
-    border: none;
+    background: var(--card-color);
+    border: 1px solid var(--table-border-color);
     cursor: pointer;
-    font-size: 22px;
+    font-size: 18px;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: var(--accent-color);
-    transition: transform 0.2s ease;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    transition: all 0.25s ease;
 }
 
 .theme-toggle button:hover {
-    transform: rotate(20deg);
+    transform: scale(1.1);
 }
