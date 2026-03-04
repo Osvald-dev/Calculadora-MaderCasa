@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Construcción MaderCasa</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="theme-toggle">
+        <button id="themeButton" onclick="toggleTheme()">
+            <i class="fas fa-sun" id="themeIcon"></i>
+        </button>
+    </div>
+
+    <div class="container">
+        <h1>Calculadora de Construcción</h1>
+
+        <form id="calculadoraForm">
+            <div class="input-group">
+                <label for="metrosCubiertos">Metros Cubiertos:</label>
+                <input type="number" id="metrosCubiertos" name="metrosCubiertos">
+            </div>
+
+            <div class="input-group">
+                <label for="metrosGaleria">Metros de Galería:</label>
+                <input type="number" id="metrosGaleria" name="metrosGaleria">
+            </div>
+
+            <div class="input-group">
+                <label for="metrosPergola">Metros de Pérgola:</label>
+                <input type="number" id="metrosPergola" name="metrosPergola">
+            </div>
+
+            <button type="button" onclick="calcular()">Calcular</button>
+        </form>
+
+        <!-- Tabla Standard -->
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tipo</th>
+                        <th>Valor</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Obra Gris</td>
+                        <td id="resultadoObraGris"></td>
+                    </tr>
+                    <tr>
+                        <td>Llave en Mano</td>
+                        <td id="resultadoLlaveEnMano"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Tabla WoodFrame 2x4 -->
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tipo</th>
+                        <th>Valor</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>WoodFrame 2x4 (Obra Gris)</td>
+                        <td id="resultadoWoodframeGris"></td>
+                    </tr>
+                    <tr>
+                        <td>WoodFrame 2x4 (Llave en Mano)</td>
+                        <td id="resultadoWoodframeLlave"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
