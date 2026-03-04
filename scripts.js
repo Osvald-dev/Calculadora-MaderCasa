@@ -11,7 +11,7 @@ function calcular() {
         (metrosGaleria * 250000);
 
     var llaveEnMano = 
-        (metrosCubiertos * 400000) +
+        (metrosCubiertos * 750000) +
         (metrosPergola * 250000) +
         (metrosGaleria * 450000);
 
@@ -22,7 +22,7 @@ function calcular() {
         (metrosGaleria * 250000);
 
     var woodframeLlave = 
-        (metrosCubiertos * 400000) +
+        (metrosCubiertos * 900000) +
         (metrosPergola * 250000) +
         (metrosGaleria * 450000);
 
