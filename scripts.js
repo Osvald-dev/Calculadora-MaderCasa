@@ -22,7 +22,7 @@ function calcular() {
         (metrosGaleria * 250000);
 
     var woodframeLlave = 
-        (metrosCubiertos * 11000000) +
+        (metrosCubiertos * 1100000) +
         (metrosPergola * 350000) +
         (metrosGaleria * 500000);
 
