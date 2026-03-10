@@ -7,23 +7,23 @@ function calcular() {
     // ===== LINEA BASE =====
     var obraGris = 
         (metrosCubiertos * 400000) +
-        (metrosPergola * 150000) +
+        (metrosPergola * 120000) +
         (metrosGaleria * 200000);
 
     var llaveEnMano = 
-        (metrosCubiertos * 750000) +
-        (metrosPergola * 350000) +
-        (metrosGaleria * 450000);
+        (metrosCubiertos * 900000) +
+        (metrosPergola * 250000) +
+        (metrosGaleria * 400000);
 
     // ===== WOODFRAME 2x4 =====
     var woodframeGris = 
         (metrosCubiertos * 550000) +
-        (metrosPergola * 200000) +
-        (metrosGaleria * 300000);
+        (metrosPergola * 150000) +
+        (metrosGaleria * 250000);
 
     var woodframeLlave = 
-        (metrosCubiertos * 900000) +
-        (metrosPergola * 400000) +
+        (metrosCubiertos * 11000000) +
+        (metrosPergola * 350000) +
         (metrosGaleria * 500000);
 
     // Mostrar resultados
