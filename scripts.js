@@ -17,7 +17,7 @@ function calcular() {
 
     // ===== WOODFRAME 2x4 =====
     var woodframeGris = 
-        (metrosCubiertos * 550000) +
+        (metrosCubiertos * 450000) +
         (metrosPergola * 80000) +
         (metrosGaleria * 120000);
 
